@@ -19,7 +19,7 @@ function Game() {
 
   return (
     <>
-      <PastGuesses guesses={guesses} />
+      <PastGuesses guesses={guesses} answer={answer} />
       <GuessInput onGuessSubmitted={onNewGuess} />
     </>
   );
